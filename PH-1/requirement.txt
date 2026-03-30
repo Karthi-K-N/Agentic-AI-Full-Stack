@@ -1,0 +1,6 @@
+fastapi
+pandas
+xlrd
+openpyxl
+PyPDF2
+python-jose

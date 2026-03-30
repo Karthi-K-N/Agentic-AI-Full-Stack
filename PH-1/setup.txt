@@ -1,0 +1,19 @@
+#create a virtual enviromnemt
+conda create -n ai-agent python=3.11 -y
+conda create ai-agent
+
+#install libraries
+
+#installing core fastapi and server stack
+conda install -c conda-forge fastapi uvicorn pydantic python-dotenv httpx -y
+uvicorn => server for fastapi
+
+#installing security and utility libraries
+pip install "python-jose[cryptography]" "passlib[bcrypt]" python-multipart
+
+#install project structure
+agent-backend
+    main.py
+    .env
+    requirement.txt
+

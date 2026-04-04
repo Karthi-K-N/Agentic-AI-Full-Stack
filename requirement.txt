@@ -4,3 +4,7 @@ xlrd
 openpyxl
 PyPDF2
 python-jose
+torch
+datasets
+transformers
+

@@ -7,4 +7,8 @@ python-jose
 torch
 datasets
 transformers
-
+accelerate
+evaluate
+rouge_score
+peft
+numpy
